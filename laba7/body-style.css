@@ -1,0 +1,217 @@
+
+a
+{
+  text-decoration: none;
+}
+
+li
+{
+  text-decoration: none;
+  list-style: none;
+}
+
+body 
+{
+  min-width: 100%;
+  font-size: 14px;
+  line-height: 22px;
+  font-family: 'Noto Serif', serif;;
+  color: #ffffff;
+  background: #000000;
+  height: auto;
+  background-image: url(2024.webp);
+  text-align: center;
+}
+
+
+footer
+{
+  background-color: rgba(31, 31, 31, 0.897);
+}
+
+#image2
+{
+  position: absolute;
+  background-color: #000000;
+  top: 1000px;
+  left: 70px;
+  border-radius: 50%;
+  background-image: url(Images\gen6.2.jpg);
+}
+
+
+.icons-1 
+{
+  padding: 0;
+  list-style: none;
+  color: #fa560a;
+  font-size: 20px;
+  line-height: 20px;
+}
+.icons-1 p 
+{
+  display: inline-block;
+  position: relative;
+  font-size: 24px;
+  color: #fa560a;
+  line-height: 20px;
+}
+.icons-1 i,
+.icons-1 img 
+{
+  color: #fff;
+  position: absolute;
+  top: 240px;
+  left: 40px;
+  text-align:center;
+  transition: all 0.3s ease-out;
+  border-radius: 10%;
+}
+
+.icons-1 a:before 
+{
+
+  content: "";
+  width: 80px;
+  height: 80px;
+  display: block;
+  transition: all 0.3s ease-out;
+}
+.icons-1 a:hover:before 
+{
+  transform: scale(0);
+  transition: all 0.3s ease-in;
+}
+.icons-1 a:hover i,
+.icons-1 a:hover img 
+{
+  transform: scale(0.5);
+  transition: all 0.3s ease-in;
+}
+
+.social-icons-1 
+{
+  padding: 20px;
+  list-style: none;
+}
+.social-icons-1 p 
+{
+  display: inline-block;
+  position: relative;
+  font-size: 24px;
+}
+.social-icons-1 i,
+.social-icons-1 img 
+{
+  color: #fff;
+  position: absolute;
+  top: 5px;
+  left: 5px;
+  width: 50px;
+  height: 50px;
+  text-align:center;
+  transition: all 0.3s ease-out;
+}
+
+.social-icons-1 a:before 
+{
+
+  content: "";
+  width: 80px;
+  height: 80px;
+  display: block;
+  transition: all 0.3s ease-out;
+}
+.social-icons-1 a:hover:before 
+{
+  transform: scale(0);
+  transition: all 0.3s ease-in;
+}
+.social-icons-1 a:hover i,
+.social-icons-1 a:hover img 
+{
+  transform: scale(1.8);
+  transition: all 0.3s ease-in;
+}
+
+.icons-1 
+{
+  padding: 0;
+  list-style: none;
+  color: #fa560a;
+  font-size: 20px;
+  line-height: 20px;
+}
+.icons-1 p 
+{
+  display: inline-block;
+  position: relative;
+  font-size: 24px;
+  color: #fa560a;
+  line-height: 20px;
+}
+.icons-1 i,
+.icons-1 img 
+{
+  color: #fff;
+  position: absolute;
+  top: 90px;
+  left: 40px;
+  text-align:center;
+  transition: all 0.3s ease-out;
+  border-radius: 10%;
+}
+
+.icons-1 a:before 
+{
+
+  content: "";
+  width: 80px;
+  height: 80px;
+  display: block;
+  transition: all 0.3s ease-out;
+}
+.icons-1 a:hover:before 
+{
+  transform: scale(0);
+  transition: all 0.3s ease-in;
+}
+.icons-1 a:hover i,
+.icons-1 a:hover img 
+{
+  transform: scale(0.5);
+  transition: all 0.3s ease-in;
+}
+
+.form-group{
+  margin-bottom: 10px;
+}
+
+.form-label{
+  display: block;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.container{
+  font-size: 25px;
+  background-color: rgba(31, 31, 31, 0.897);
+  align-items: center;
+}
+
+input, textarea, select{
+  font-size: inherit;
+}
+
+.btn{
+  display: block;
+  height: 40px;
+  width: 150px;
+  margin: 0 auto;
+  background-color: rgba(0, 0, 0, 0.767);
+  border: 1px solid #ff5101;
+  border-radius: 5px;
+  font-size: 20px;
+  color: #ff5101;
+  font-weight: bold;
+}

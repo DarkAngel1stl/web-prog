@@ -133,17 +133,14 @@ function createAuthorElement(record) {
 
     document.querySelector('.search-btn').onclick = searchBtnHandler;
 
-    // Add event listener for the search field to enable autocomplete
     document.querySelector('.search-field').addEventListener('input', autocompleteHandler);
-
-// ... (previous code)
 
 function searchBtnHandler() {
     const searchField = document.getElementById('searchField');
     const searchQuery = searchField.value.trim();
     if (searchQuery !== "") {
         downloadData(1, searchQuery);
-        document.getElementById('autocompleteDropdown').innerHTML = ""; // Clear autocomplete dropdown
+        document.getElementById('autocompleteDropdown').innerHTML = ""; 
     }
 }
 
@@ -186,7 +183,8 @@ function downloadData(page = 1, searchQuery = "") {
     let perPage = document.querySelector('.per-page-btn').value;
     url.searchParams.append('page', page);
     url.searchParams.append('per-page', perPage);
-    url.searchParams.append('q', searchQuery); // Add the 'q' parameter for search
+    url.searchParams.append('q', searchQuery); 
+    
 
     let xhr = new XMLHttpRequest();
     xhr.open('GET', url);
